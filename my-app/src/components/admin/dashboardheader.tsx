@@ -6,7 +6,7 @@ export default function DashboardHeader() {
           Monday, May 19
         </p>
 
-        <h1 className="text-[42px] leading-tight font-medium tracking-tight text-slate-900 mt-2">
+        <h1 className="text-[20px] leading-tight font-medium tracking-tight text-slate-900 mt-2">
           Good morning, Alex.
         </h1>
 
