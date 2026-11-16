@@ -2,6 +2,9 @@ import AdminSidebar from "@/src/components/admin/adminsidebar";
 import DashboardHeader from "@/src/components/admin/dashboardheader";
 import StatsCard from "@/src/components/admin/statscard";
 import RevenueChart from "@/src/components/admin/revenuechart";
+import NeedsAttention from "@/src/components/admin/attention";
+import RecentClients from "@/src/components/admin/recentclient";
+
 
 export default function AdminDashboard() {
   return (
@@ -40,6 +43,13 @@ export default function AdminDashboard() {
         <div className="mt-8">
           <RevenueChart />
         </div>
+
+        {/* ADD THESE HERE */}
+        <div className="mt-8 grid grid-cols-1 lg:grid-cols-2 gap-6">
+          <NeedsAttention />
+          <RecentClients />
+        </div>
+
       </main>
     </div>
   );
